@@ -103,17 +103,9 @@
     <div class="card">
       <img src="./static //Images//Ala-Rasi.jpeg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Deluxe Bedroom</h5>
-        <h6>Amenities</h6>
-        <ul>
-          <li>Free Wifi</li>
-          <li>Beautiful View</li>
-          <li>Airport Transfer</li>
-          <li>Renatl cars</li>
-          <li>min = 3, max = 4</li>
-        </ul>
-        <p> class="card-text">Welcome to the Deluxe experience. Where quality and comfort are the forefront to rest fun and rest.</p>
-        <a href="#bookings" class="btn btn-success">R850 per night</a>
+        <h5 class="card-title">Ala Rasi</h5>
+        <a href="#" class="btn btn-success">View More</a>
+        <a href="#" class="btn btn-success">Add To Cart</a>
       </div>
     </div>
   </div>
@@ -123,7 +115,7 @@
   </div>
 
   <div class="row">
-    <div class="col-md-10">
+    <div class="col-md-10 md-4" >
       <!-- Types of room in the hotel -->
       <div class="row">
         <!-- card of room of luxury-->

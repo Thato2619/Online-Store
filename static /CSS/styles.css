@@ -20,3 +20,8 @@ body{
     width: 7%;
     height: 7%;
 }
+
+.card-img-top{
+    display: flex;
+    justify-content: center;
+}
