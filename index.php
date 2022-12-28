@@ -17,7 +17,7 @@
     <!-- Navbar-->
     <nav class="navbar navbar-expand-lg nav-colour">
   <div class="container-fluid">
-    <img src="./static/Images/online_store_logo.png">
+    <img src="./static /Images/online_store_logo.png" alt="">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
