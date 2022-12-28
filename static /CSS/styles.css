@@ -11,12 +11,12 @@ body{
 
 /* change background */
 .nav-colour{
-    background-color: #f08080 !important;
+    background-color: #fbfbf2 !important;
     color: #fbfbf2 !important;
 }
 
+/* style logo image to fit nav-bar */
 .store_logo{
     width: 7%;
     height: 7%;
 }
-
