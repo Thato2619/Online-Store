@@ -70,22 +70,16 @@
       <div class="carousel-item active" data-bs-interval="10000">
         <img src="./static //Images//pexels-angela-roma-7480130.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>WELCOME</h5>
-
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="2000">
         <img src="./static //Images//galley2.jpeg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>TO</h5>
-          <p>Some representative placeholder content for the second slide.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="./static //Images//pexels-angela-roma-7479917.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>GLISTENING GLOW</h5>
-          <p>Where your skin feels at home.</p>
         </div>
       </div>
     </div>
@@ -118,8 +112,8 @@
             <img src="./static //Images//Ala-Rasi.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Ala-Rasi</h5>
-              <p class="card-text">This room is private and huge. It leaves you wanting more and more. Surrounded by unlimited room service.</p>
-              <a href="#" class="btn btn-success">ADD TO CART</a>
+              <p class="card-text">This room is private and huge. It leaves you wanting more and more.</p>
+              <a href="#" class="btn btn-success1">ADD TO CART</a>
               <a href="#" class="btn btn-success">VIEW MORE</a>
             </div>
           </div>
@@ -132,7 +126,7 @@
             <div class="card-body">
               <h5 class="card-title">Eudaimonia</h5>
               <p class="card-text">This room is catered to all families. This place literally specialises in family bonding time</p>
-              <a href="#" class="btn btn-success">ADD TO CART</a>
+              <a href="#" class="btn btn-success1">ADD TO CART</a>
               <a href="#" class="btn btn-success">VIEW MORE</a>
             </div>
           </div>
@@ -145,7 +139,7 @@
             <div class="card-body">
               <h5 class="card-title">Hygge</h5>
               <p class="card-text">This room is catered to all families. This place literally specialises in family bonding time</p>
-              <a href="#" class="btn btn-success">ADD TO CART</a>
+              <a href="#" class="btn btn-success1">ADD TO CART</a>
               <a href="#" class="btn btn-success">VIEW MORE</a>
             </div>
           </div>
