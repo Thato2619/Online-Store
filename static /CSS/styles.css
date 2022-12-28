@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* change background colour of whple page*/
+body{
+    background-color: #fbfbf2 !important;
+}
+
+/* change background */
+.nav-colour{
+    background-color: #f08080 !important;
+    color: #fbfbf2 !important;
+}
