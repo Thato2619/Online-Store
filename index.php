@@ -120,6 +120,7 @@
               <h5 class="card-title">Ala-Rasi</h5>
               <p class="card-text">This room is private and huge. It leaves you wanting more and more. Surrounded by unlimited room service.</p>
               <a href="#" class="btn btn-success">ADD TO CART</a>
+              <a href="#" class="btn btn-success">VIEW MORE</a>
             </div>
           </div>
         </div>
@@ -132,6 +133,7 @@
               <h5 class="card-title">Eudaimonia</h5>
               <p class="card-text">This room is catered to all families. This place literally specialises in family bonding time</p>
               <a href="#" class="btn btn-success">ADD TO CART</a>
+              <a href="#" class="btn btn-success">VIEW MORE</a>
             </div>
           </div>
         </div>
@@ -141,10 +143,10 @@
           <div class="card">
             <img src="./static //Images//Hygge.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Double Bedroom</h5>
-              <h6>Amenities</h6>
+              <h5 class="card-title">Hygge</h5>
               <p class="card-text">This room is catered to all families. This place literally specialises in family bonding time</p>
               <a href="#" class="btn btn-success">ADD TO CART</a>
+              <a href="#" class="btn btn-success">VIEW MORE</a>
             </div>
           </div>
         </div>
