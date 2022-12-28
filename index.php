@@ -82,7 +82,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="./static //Images//pexels-angela-roma-7479812.jpg" class="d-block w-100" alt="...">
+        <img src="./static //Images//pexels-angela-roma-7479917.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>GLISTENING GLOW</h5>
           <p>Where your skin feels at home.</p>
@@ -102,9 +102,10 @@
 
   </div>
 
-
-  <section>
-  </section>
+<!-- Add Title -->
+<div class="bg-light">
+  <h1 class="display-1">WELCOME TO GLISTENING GLOW</h1>
+</div>
 
   <section>
   <div class="row">

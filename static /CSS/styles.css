@@ -21,6 +21,7 @@ body{
     height: 7%;
 }
 
+/* style the layout of cards using classnames of row and image */
 .card-img-top{
     width: 100%;
     height: fit-content;
@@ -32,4 +33,11 @@ body{
     margin-right: auto;
     display: flex;
     justify-content: center;
+}
+
+/* style text layout */
+.display-1{
+    text-align: center;
+    background-color: #fbfbf2 !important;
+    color: #9b7b6f !important;
 }
