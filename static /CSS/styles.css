@@ -22,6 +22,14 @@ body{
 }
 
 .card-img-top{
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+}
+
+.row{
+    text-align: center;
+    margin-right: auto;
     display: flex;
     justify-content: center;
 }

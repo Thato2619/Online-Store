@@ -98,72 +98,60 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <!-- card of Ala-Rasi -->
-  <div class="col-md-4  mb-4">
-    <div class="card">
-      <img src="./static //Images//Ala-Rasi.jpeg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Ala Rasi</h5>
-        <a href="#" class="btn btn-success">View More</a>
-        <a href="#" class="btn btn-success">Add To Cart</a>
-      </div>
-    </div>
-  </div>
-
 
 
   </div>
 
+
+  <section>
+  </section>
+
+  <section>
   <div class="row">
     <div class="col-md-10 md-4" >
-      <!-- Types of room in the hotel -->
+      <!-- Type of facial products-->
       <div class="row">
-        <!-- card of room of luxury-->
+        <!-- card of Ala-Rasi-->
         <div class="col-md-4  mb-4">
           <div class="card">
-            <img src="./static //Images//Eudaimonia.jpeg" class="card-img-top" alt="...">
+            <img src="./static //Images//Ala-Rasi.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Luxurious Bedroom</h5>
-              <h6>Amenities</h6>
-              <ul>
-                <li>Fast Wifi</li>
-                <li>High ceiling</li>
-                <li>Airport Transfer</li>
-                <li>Air Conditioning</li>
-                <li>Golf course</li>
-                <li>Private</li>
-                <li>min = 2, max = 5
-                <li>
-              </ul>
+              <h5 class="card-title">Ala-Rasi</h5>
               <p class="card-text">This room is private and huge. It leaves you wanting more and more. Surrounded by unlimited room service.</p>
               <a href="#" class="btn btn-success">R3500 per night</a>
             </div>
           </div>
         </div>
 
-        <!-- card of double room -->
+        <!-- card of Eudaimonia -->
         <div class="col-md-4  mb-4">
           <div class="card">
-            <img src="./static //Images//Hygge.jpeg" class="card-img-top" alt="...">
+            <img src="./static //Images//Eudaimonia.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Double Bedroom</h5>
-              <h6>Amenities</h6>
-              <ul>
-                <li>Fast Wifi</li>
-                <li>High ceiling</li>
-                <li>Airport Transfer</li>
-                <li>Air Conditioning</li>
-                <li>Complimentary breakfast</li>
-                <li>close to amusement parks & theme parks</li>
-                <li>min = 2, max = 5
-                <li>
-              </ul>
+              <h5 class="card-title">Eudaimonia</h5>
               <p class="card-text">This room is catered to all families. This place literally specialises in family bonding time</p>
               <a href="#" class="btn btn-success">R2500 per night</a>
             </div>
           </div>
         </div>
 
+         <!-- card of Hygge-->
+        <div class="col-md-4  mb-4">
+          <div class="card">
+            <img src="./static //Images//Hygge.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Double Bedroom</h5>
+              <h6>Amenities</h6>
+              <p class="card-text">This room is catered to all families. This place literally specialises in family bonding time</p>
+              <a href="#" class="btn btn-success">R2500 per night</a>
+            </div>
+          </div>
+        </div>
+
+        
+
+  </section>
+  
 
 
 
