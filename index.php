@@ -27,16 +27,22 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#">Shop</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Add To Cart</a>
+          <a class="nav-link" href="#">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"></a>
+          <a class="nav-link" href="#">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Cart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">login</a>
         </li>
         
         
