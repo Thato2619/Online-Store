@@ -17,7 +17,7 @@
     <!-- Navbar-->
     <nav class="navbar navbar-expand-lg nav-colour">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Glistening Glow</a>
+    <img src="./static //Images//">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -45,11 +45,7 @@
           <a class="nav-link" href="#">Total Price:100 -+</a>
         </li>
       </ul>
-        
-        
-
-        
-          
+      
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
