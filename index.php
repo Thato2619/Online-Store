@@ -119,7 +119,7 @@
             <div class="card-body">
               <h5 class="card-title">Ala-Rasi</h5>
               <p class="card-text">This room is private and huge. It leaves you wanting more and more. Surrounded by unlimited room service.</p>
-              <a href="#" class="btn btn-success">R3500 per night</a>
+              <a href="#" class="btn btn-success">ADD TO CART</a>
             </div>
           </div>
         </div>
@@ -131,7 +131,7 @@
             <div class="card-body">
               <h5 class="card-title">Eudaimonia</h5>
               <p class="card-text">This room is catered to all families. This place literally specialises in family bonding time</p>
-              <a href="#" class="btn btn-success">R2500 per night</a>
+              <a href="#" class="btn btn-success">ADD TO CART</a>
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@
               <h5 class="card-title">Double Bedroom</h5>
               <h6>Amenities</h6>
               <p class="card-text">This room is catered to all families. This place literally specialises in family bonding time</p>
-              <a href="#" class="btn btn-success">R2500 per night</a>
+              <a href="#" class="btn btn-success">ADD TO CART</a>
             </div>
           </div>
         </div>
