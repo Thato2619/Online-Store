@@ -113,6 +113,7 @@
             <div class="card-body">
               <h5 class="card-title">Ala-Rasi</h5>
               <p class="card-text">Hydrating, with Vitamin C</p>
+              <p class="card-text">R80</p>
               <a href="#" class="btn btn-success1">ADD TO CART</a>
               <a href="#" class="btn btn-success">VIEW MORE</a>
             </div>
@@ -126,6 +127,7 @@
             <div class="card-body">
               <h5 class="card-title">Eudaimonia</h5>
               <p class="card-text">Removes impuritiess, contains Salicylic Acid</p>
+              <p class="card-text">R120</p>
               <a href="#" class="btn btn-success1">ADD TO CART</a>
               <a href="#" class="btn btn-success">VIEW MORE</a>
             </div>
@@ -139,6 +141,7 @@
             <div class="card-body">
               <h5 class="card-title">Hygge</h5>
               <p class="card-text">Brightening, contains Hyaluronic Acid </p>
+              <p class="card-text">R100</p>
               <a href="#" class="btn btn-success1">ADD TO CART</a>
               <a href="#" class="btn btn-success">VIEW MORE</a>
             </div>
