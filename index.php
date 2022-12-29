@@ -112,7 +112,7 @@
             <img src="./static //Images//Ala-Rasi.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Ala-Rasi</h5>
-              <p class="card-text">This room is private and huge. It leaves you wanting more and more.</p>
+              <p class="card-text">Hydrating, with Vitamin C</p>
               <a href="#" class="btn btn-success1">ADD TO CART</a>
               <a href="#" class="btn btn-success">VIEW MORE</a>
             </div>
@@ -125,7 +125,7 @@
             <img src="./static //Images//Eudaimonia.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Eudaimonia</h5>
-              <p class="card-text">This room is catered to all families. This place literally specialises in family bonding time</p>
+              <p class="card-text">Removes impuritiess, contains Salicylic Acid</p>
               <a href="#" class="btn btn-success1">ADD TO CART</a>
               <a href="#" class="btn btn-success">VIEW MORE</a>
             </div>
@@ -138,7 +138,7 @@
             <img src="./static //Images//Hygge.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Hygge</h5>
-              <p class="card-text">This room is catered to all families. This place literally specialises in family bonding time</p>
+              <p class="card-text">Brightening, contains Hyaluronic Acid </p>
               <a href="#" class="btn btn-success1">ADD TO CART</a>
               <a href="#" class="btn btn-success">VIEW MORE</a>
             </div>
