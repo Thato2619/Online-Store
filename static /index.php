@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -119,6 +119,7 @@
             </div>
           </div>
         </div>
+        
 
         <!-- card of Eudaimonia -->
         <div class="col-md-4  mb-4">
