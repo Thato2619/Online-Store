@@ -3,7 +3,7 @@
 //create variables to of the database
 $serverName = 'localhost';
 $userName = 'root';
-$password = '';
+$password = 'root';
 $dbName = 'Online-Store';
 
 
