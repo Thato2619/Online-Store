@@ -1,11 +1,8 @@
-<?php
+<?php 
 
-
-require_once './config/dbConfig.php';
+  include_once __DIR__ 
 
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -118,7 +115,9 @@ require_once './config/dbConfig.php';
       # write out the result_query varibale tht contains mysqli_query
       $result_query = mysqli_query($connection, $selected_query);
       $row = mysqli_fetch_assoc($result_query);
-      echo $row['product_id'];
+      echo $row['product_name'];
+      var_dump($row);
+
       ?>
       <div class="col-md-10 md-4">
         <!-- Type of facial products-->
