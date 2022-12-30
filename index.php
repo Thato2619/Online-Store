@@ -131,14 +131,16 @@
             <div class='card'>
               <img src='./static //Images//Ala-Rasi.jpeg' class='card-img-top' alt='...'>
               <div class='card-body'>
-                <h5 class='card-title'>Ala-Rasi</h5>
-                <p class='card-text'>Hydrating, with Vitamin C</p>
-                <p class='card-text'>R80</p>
+                <h5 class='card-title'>$product_name</h5>
+                <p class='card-text'>$product_description</p>
+                <p class='card-text'>R$product_price</p>
                 <a href='#'class='btn btn-success1'>ADD TO CART</a>
                 <a href='#' class='btn btn-success'>VIEW MORE</a>
               </div>
             </div>
           </div>";
+
+          //make sure that every double quote is replaced 
         
       }
       ?>
