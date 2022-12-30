@@ -113,7 +113,8 @@ require_once './config/dbConfig.php';
   <section>
   <div class="row">
     <?php 
-    
+    #create selected-query variables that contains selected from products from the database
+    $selected_query = "Select * from `Products`"
     
     ?>
     <div class="col-md-10 md-4" >
