@@ -122,7 +122,7 @@
         $product_description = $row['product_description'];
         $product_image = $row['product_image'];
         $product_price = $row['product_price'];
-        $product_keywords = $row['product_keywords'];
+        $product_keywords = $row['product_keywords']; 
         echo" <div class='col-md-10 md-4'>
         <!-- Type of facial products-->
         <div class='row'>
@@ -131,7 +131,7 @@
             <div class='card'>
               <img src='./static //Images//Ala-Rasi.jpeg' class='card-img-top' alt='...'>
               <div class='card-body'>
-                <h5 class='card-title'>$product_name</h5>
+                <h5 class='card-title'>$product_name</h5> 
                 <p class='card-text'>$product_description</p>
                 <p class='card-text'>R$product_price</p>
                 <a href='#'class='btn btn-success1'>ADD TO CART</a>
