@@ -1,4 +1,13 @@
- <!DOCTYPE html>
+<?php 
+
+
+require_once './config/dbConfig.php';
+
+?>
+
+
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
