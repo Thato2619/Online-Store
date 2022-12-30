@@ -129,7 +129,7 @@
           <!-- card of Ala-Rasi-->
           <div class='col-md-4  mb-4'>
             <div class='card'>
-              <img src='./static //Images//Ala-Rasi.jpeg' class='card-img-top' alt='...'>
+              <img src='./static/Images/$product_image' class='card-img-top' alt='...'>
               <div class='card-body'>
                 <h5 class='card-title'>$product_name</h5> 
                 <p class='card-text'>$product_description</p>
