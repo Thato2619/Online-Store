@@ -112,8 +112,19 @@
       $selected_query = "SELECT * FROM `Products`";
       # write out the result_query varibale tht contains mysqli_query
       $result_query = mysqli_query($connection, $selected_query);
-      $row = mysqli_fetch_assoc($result_query);
-      echo $row['product_description'];
+      #$row = mysqli_fetch_assoc($result_query);
+      #echo $row['product_name']; (check if the name of product is visible on webpage)
+
+      //fetch product from the database using fetch function
+      while($row = mysqli_fetch_assoc($result_query)){
+        $product_id = $row['product_id'];
+        $product_name = $row['product_name'];
+        $product_description = $row['product_description'];
+        $product_image = $row['product_image'];
+        $product_price = $row['product_price'];
+        $product_keywords = $row['product_keywords'];
+        
+      }
       ?>
       <div class="col-md-10 md-4">
         <!-- Type of facial products-->
