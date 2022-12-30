@@ -1,7 +1,5 @@
 <?php 
-
-  include_once __DIR__ 
-
+  require_once __DIR__ . "/config2/dbConfig.php";
 ?>
 
 <!DOCTYPE html>
@@ -111,13 +109,11 @@
     <div class="row">
       <?php
       #create selected-query variables that contains selected from products from the database
-      $selected_query = "Select * from `Products`";
+      $selected_query = "SELECT * FROM `Products`";
       # write out the result_query varibale tht contains mysqli_query
       $result_query = mysqli_query($connection, $selected_query);
       $row = mysqli_fetch_assoc($result_query);
-      echo $row['product_name'];
-      var_dump($row);
-
+      echo $row['product_description'];
       ?>
       <div class="col-md-10 md-4">
         <!-- Type of facial products-->
