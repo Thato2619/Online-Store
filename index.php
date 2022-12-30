@@ -112,6 +112,10 @@ require_once './config/dbConfig.php';
 
   <section>
   <div class="row">
+    <?php 
+    
+    
+    ?>
     <div class="col-md-10 md-4" >
       <!-- Type of facial products-->
       <div class="row">
