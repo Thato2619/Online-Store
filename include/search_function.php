@@ -5,9 +5,9 @@ function search_products(){
 
     global $connection;
     #create selected-query variables that contains selected from products from the database
-    $search_query = "SELECT * FROM `Products`";
+    $search_query = "SELECT * FROM `Products` WHERE product_keywords like '%value%'";
     # write out the result_query varibale tht contains mysqli_query
-    $result_query = mysqli_query($connection, $selected_query);
+    $result_query = mysqli_query($connection, $search_query);
     #$row = mysqli_fetch_assoc($result_query);
     #echo $row['product_name']; (check if the name of product is visible on webpage)
     
