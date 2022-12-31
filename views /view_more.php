@@ -140,9 +140,7 @@ include  ("..index.phpindex.php");
                 <a href='./views/view_more.php?product_id=$product_id' class='btn btn-success'>VIEW MORE</a>
               </div>
             </div>
-          </div>
-          
-          ";
+          </div>";
 
         //make sure that every double quote is replaced 
 

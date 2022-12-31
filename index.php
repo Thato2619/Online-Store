@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__ . "/config2/dbConfig.php";
+
 ?>
 
 <!DOCTYPE html>
