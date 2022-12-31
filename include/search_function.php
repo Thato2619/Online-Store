@@ -2,7 +2,7 @@
 //require_once the  information from database
 require_once __DIR__ . "/config2/dbConfig.php";
 function search_products(){
-
+    #create global variable with database connection
     global $connection;
     #create selected-query variables that contains selected from products from the database
     $search_query = "SELECT * FROM `Products` WHERE product_keywords like '%value%'";

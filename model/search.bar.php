@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__ . "/config2/dbConfig.php";
+include_once __DIR__ . "/include/search_function.php";
 ?>
 
 <!DOCTYPE html>
