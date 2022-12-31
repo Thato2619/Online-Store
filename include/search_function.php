@@ -1,11 +1,11 @@
-<?php
+<?php 
 //require_once the  information from database
 require_once __DIR__ . "/config2/dbConfig.php";
 function search_products(){
 
     global $connection;
     #create selected-query variables that contains selected from products from the database
-    $selected_query = "SELECT * FROM `Products`";
+    $search_query = "SELECT * FROM `Products`";
     # write out the result_query varibale tht contains mysqli_query
     $result_query = mysqli_query($connection, $selected_query);
     #$row = mysqli_fetch_assoc($result_query);
