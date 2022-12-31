@@ -56,9 +56,9 @@ include_once __DIR__ . "/include/search_function.php";
           </li>
         </ul>
 
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+        <form class="d-flex" role="search" action="" method="get">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search_data">
+          <button class="btn btn-outline-success" type="submit" name="search_data_product">Search</button>
         </form>
       </div>
     </div>
@@ -142,6 +142,8 @@ include_once __DIR__ . "/include/search_function.php";
           </div>
           
           ";
+
+          search_products();
 
         //make sure that every double quote is replaced 
 

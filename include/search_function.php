@@ -4,8 +4,11 @@ require_once __DIR__ . "/config2/dbConfig.php";
 function search_products(){
     #create global variable with database connection
     global $connection;
+    if(isset($_GET['search_data_product'])) {
+        $search_data_value = $_GET['search_data'];
+    }
     #create selected-query variables that contains selected from products from the database
-    $search_query = "SELECT * FROM `Products` WHERE product_keywords like '%value%'";
+    $search_query = "SELECT * FROM `Products` WHERE product_keywords like '%$search_data_value%'";
     # write out the result_query varibale tht contains mysqli_query
     $result_query = mysqli_query($connection, $search_query);
     #$row = mysqli_fetch_assoc($result_query);
