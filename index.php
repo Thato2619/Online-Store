@@ -136,7 +136,7 @@ require_once __DIR__ . "/config2/dbConfig.php";
                 <p class='card-text'>$product_description</p>
                 <p class='card-text'>R$product_price</p>
                 <a href='#'class='btn btn-success1'>ADD TO CART</a>
-                <a href='./views/view_more.php?product_id=$product_id' class='btn btn-success'>VIEW MORE</a>
+                <a href='/views/view_more.php?product_id=$product_id' name='submit' id='submit' class='btn btn-success'>VIEW MORE</a>
               </div>
             </div>
           </div>
