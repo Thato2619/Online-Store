@@ -34,7 +34,7 @@ require_once __DIR__ . "/config2/dbConfig.php";
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Shop</a>
@@ -136,7 +136,7 @@ require_once __DIR__ . "/config2/dbConfig.php";
                 <p class='card-text'>$product_description</p>
                 <p class='card-text'>R$product_price</p>
                 <a href='#'class='btn btn-success1'>ADD TO CART</a>
-                <a href='/views/view_more.php?product_id=$product_id' name='submit' id='submit' class='btn btn-success'>VIEW MORE</a>
+                <a href='#' class='btn btn-success'>VIEW MORE</a>
               </div>
             </div>
           </div>
