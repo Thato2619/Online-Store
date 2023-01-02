@@ -1,5 +1,12 @@
 <?php
-require_once __DIR__ . "/config2/dbConfig.php";
+
+   // error reporting
+   ini_set('display_errors', 1);
+   ini_set('display_startup_errors', 1);
+   error_reporting(E_ALL);
+
+require_once __DIR__ . "/../config2/dbConfig.php";
+include_once __DIR__ . ""
 
 ?>
 
@@ -37,16 +44,16 @@ require_once __DIR__ . "/config2/dbConfig.php";
             <a class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Shop</a>
+            <a class="nav-link" href="shop.php">Shop</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link" href="gallery.php">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="about_us.php">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="contact.php">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i><sup>1</sup></a>
@@ -101,14 +108,11 @@ require_once __DIR__ . "/config2/dbConfig.php";
 
   </div>
 
-  <!-- Add Title -->
-  <div class="bg-light">
-    <h1 class="display-1">WELCOME TO GLISTENING GLOW</h1>
-  </div>
 
-  <section>
-    <div class="row px-1">
-      <?php
+  <section style="background-color: #eee;">
+  <div class="container py-5">
+    <div class="row justify-content-center">
+    <?php
       #create selected-query variables that contains selected from products from the database
       $selected_query = "SELECT * FROM `Products`";
       # write out the result_query varibale tht contains mysqli_query
@@ -124,23 +128,55 @@ require_once __DIR__ . "/config2/dbConfig.php";
         $product_image = $row['product_image'];
         $product_price = $row['product_price'];
         $product_keywords = $row['product_keywords'];
-        echo " <div class='col-md-10 md-4'>
-        <!-- Type of facial products-->
-        <div class='row'>
-          <!-- card of Ala-Rasi-->
-          <div class='col-md-4  mb-4'>
-            <div class='card'>
-              <img src='./DBImages/product_images/$product_image' class='card-img-top' alt='$product_name'>
-              <div class='card-body'>
-                <h5 class='card-title'>$product_name</h5> 
-                <p class='card-text'>$product_description</p>
-                <p class='card-text'>R$product_price</p>
-                <a href='#'class='btn btn-success1'>ADD TO CART</a>
-                <a href='#' class='btn btn-success'>VIEW MORE</a>
+
+        echo " <div class='col-md-8 col-lg-6 col-xl-4'>
+        <div class='card' style='border-radius: 15px;'>
+          <div class='bg-image hover-overlay ripple ripple-surface ripple-surface-light'
+            data-mdb-ripple-color='light'>
+            <img src='./DBImages/product_images/$product_image'
+              style='border-top-left-radius: 15px; border-top-right-radius: 15px;'class='img-fluid'
+              alt='$product_name' />
+            <a href'#!'>
+              <div class='mask'></div>
+            </a>
+          </div>
+          <div class='card-body pb-0'>
+            <div class='d-flex justify-content-between'>
+              <div>
+                <p><a href='#!' class='text-dark'> $product_name</a></p>
+              </div>
+              <div>
+                <div class='d-flex flex-row justify-content-end mt-1 mb-4 text-danger'>
+                  <i class='fas fa-star'></i>
+                  <i class='fas fa-star'></i>
+                  <i class='fas fa-star'></i>
+                  <i class='fas fa-star'></i>
+                </div>
+                <p class='small text-muted'>Rated 4.0/5</p>
               </div>
             </div>
           </div>
-          
+          <hr class='my-0' />
+          <div class='card-body pb-0'>
+            <div class='d-flex justify-content-between'>
+              <p><a href='#!' class='text-dark'>$product_price</a></p>
+              <p class='text-dark'>$product_description</p>
+            </div>
+            <p class='small text-muted'></p>
+          </div>
+          <hr class='my-0' />
+          <div class='card-body'>
+            <div class='d-flex justify-content-between align-items-center pb-2 mb-1'>
+              <a href='index.php' class='text-dark fw-bold'>Cancel</a>
+              <button type='button' class='btn btn-primary'>ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+       
           ";
 
         //make sure that every double quote is replaced 
@@ -149,9 +185,6 @@ require_once __DIR__ . "/config2/dbConfig.php";
       ?>
 
       
-
-
-  </section>
 
 
 
