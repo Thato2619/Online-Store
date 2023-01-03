@@ -116,6 +116,9 @@
               <p class="text-muted">
                 Everything about our skincare brand is made naturally. Every product is infused with SPF 50. We really cater to the health of your skin. Our products are nourshing, moisturizing, non-comedogenic, cruelty-free, vegan and definitely enhances your beautiful skin.
               </p>
+
+              <br>
+
               <span class="text-muted">
                 Good for all skin types & Dermatologist approved
               </span>
@@ -124,18 +127,26 @@
         </section>
         <!--Section: Content-->
 
+<br>
 
+<br>
 
+<br>
 
+<br>
 
+<br>
 
-
-
-
+<br>
 
   
 
-  
+
+<div class="bg-light">
+    <h1 class="display-1">OUR TEAM</h1>
+  </div>
+
+
 <!-- add cards for employer -->
   <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
