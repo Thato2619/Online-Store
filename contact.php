@@ -63,3 +63,12 @@ require_once __DIR__ . "/config2/dbConfig.php";
       </div>
     </div>
   </nav>
+
+  <div class="bg-light">
+    <h1 class="display-1">CONTACT US</h1>
+  </div>
+
+  <div class="col-md-4">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13248.029921231335!2d18.50444088384679!3d-33.8894611904067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5c059c545213%3A0xb08b8213f2a0a7be!2sCentury%20City%2C%20Cape%20Town%2C%207441!5e0!3m2!1sen!2sza!4v1672770814081!5m2!1sen!2sza" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
