@@ -140,9 +140,7 @@ require_once __DIR__ . "/config2/dbConfig.php";
               </div>
             </div>
           </div>
-          
           ";
-
         //make sure that every double quote is replaced 
 
       }
