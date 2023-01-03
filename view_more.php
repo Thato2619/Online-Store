@@ -124,7 +124,7 @@
           <hr class='my-0' />
           <div class='card-body pb-0'>
             <div class='d-flex justify-content-between'>
-              <p><a href='#!' class='text-dark'>$product_price</a></p>
+              <p><a href='#!' class='text-dark'>R$product_price</a></p>
               <p class='text-dark'>$product_description</p>
             </div>
             <p class='small text-muted'></p>
