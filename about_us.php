@@ -166,7 +166,7 @@
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+      <img src="./DBImages/product_images/CEO.jpg" class="card-img-top" alt="Los Angeles Skyscrapers"/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
