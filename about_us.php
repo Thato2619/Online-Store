@@ -99,7 +99,7 @@
 
 
 <div class="bg-light">
-    <h1 class="display-1">WELCOME TO GLISTENING GLOW</h1>
+    <h1 class="display-1">ABOUT US</h1>
   </div>
 
 
