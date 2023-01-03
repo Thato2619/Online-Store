@@ -180,7 +180,7 @@ include_once __DIR__ . ""
           ";
 
         //make sure that every double quote is replaced 
-
+        //https://mdbootstrap.com/docs/standard/extended/product-cards/
       }
       ?>
 
