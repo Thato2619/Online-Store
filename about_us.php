@@ -75,7 +75,7 @@
   
 
   <div class="card text-bg-dark">
-  <img src="./DBImages/product_images/pexels-angela-roma-7479917.jpg" class="card-img" alt="...">
+  <img src="./DBImages/product_images/pexels-angela-roma-7479812.jpg" class="card-img" alt="...">
   <div class="card-img-overlay">
   </div>
 </div>
@@ -151,16 +151,12 @@
   <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-100">
-      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" class="card-img-top" alt="Skyscrapers"/>
+      <img src="./DBImages/product_images/Co-Exec2.jpg" class="card-img-top" alt="Skyscrapers"/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Sandra Brown</h5>
         <p class="card-text">
-          This is a wider card with supporting text below as a natural lead-in to
-          additional content. This content is a little bit longer.
+          Sandra, is one of our very own co-executives. She is mainly involved in our photography and graphics team too.
         </p>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
       </div>
     </div>
   </div>
@@ -168,11 +164,8 @@
     <div class="card h-100">
       <img src="./DBImages/product_images/CEO.jpg" class="card-img-top" alt="Los Angeles Skyscrapers"/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
+        <h5 class="card-title">Kgomotsto Ngqolombe</h5>
+        <p class="card-text">Kgomotsto is our very own CEO and co-founder of the company. She mainly involved in Creative Directing.</p>
       </div>
     </div>
   </div>
@@ -180,15 +173,10 @@
     <div class="card h-100">
       <img src="./DBImages/product_images/Co-Exec.jpg" class="card-img-top" alt="Palm Springs Road"/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Lexi Smith</h5>
         <p class="card-text">
-          This is a wider card with supporting text below as a natural lead-in to
-          additional content. This card has even longer content than the first to show
-          that equal height action.
+          Lexi, is our very own marketing director. She is one of our co-executives alongside Sandra. Lexi makes sure that we that every customer gets what they pay for.
         </p>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
       </div>
     </div>
   </div>
