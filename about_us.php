@@ -178,7 +178,7 @@
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top" alt="Palm Springs Road"/>
+      <img src="./DBImages/product_images/Co-Exec.jpg" class="card-img-top" alt="Palm Springs Road"/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
