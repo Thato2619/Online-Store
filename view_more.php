@@ -1,5 +1,12 @@
 <?php
-require_once __DIR__ . "/config2/dbConfig.php";
+
+   // error reporting
+   ini_set('display_errors', 1);
+   ini_set('display_startup_errors', 1);
+   error_reporting(E_ALL);
+
+
+   require_once __DIR__ . "/config2/dbConfig.php";
 
 ?>
 
@@ -37,16 +44,16 @@ require_once __DIR__ . "/config2/dbConfig.php";
             <a class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Shop</a>
+            <a class="nav-link" href="view_more.php">Shop</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link" href="gallery.php">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="about_us.php">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="contact.php">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i><sup>1</sup></a>
@@ -64,51 +71,13 @@ require_once __DIR__ . "/config2/dbConfig.php";
     </div>
   </nav>
 
-  <!-- slideshow of models and products -->
-  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img src="./static //Images//pexels-angela-roma-7480130.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="./static //Images//galley2.jpeg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./static //Images//pexels-angela-roma-7479917.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+  
 
 
-  </div>
-
-  <!-- Add Title -->
-  <div class="bg-light">
-    <h1 class="display-1">WELCOME TO GLISTENING GLOW</h1>
-  </div>
-
-  <section>
-    <div class="row px-1">
-      <?php
+  <section style="background-color: #eee;">
+  <div class="container py-5">
+    <div class="row justify-content-center">
+    <?php
       #create selected-query variables that contains selected from products from the database
       $selected_query = "SELECT * FROM `Products`";
       # write out the result_query varibale tht contains mysqli_query
@@ -124,32 +93,63 @@ require_once __DIR__ . "/config2/dbConfig.php";
         $product_image = $row['product_image'];
         $product_price = $row['product_price'];
         $product_keywords = $row['product_keywords'];
-        echo " <div class='col-md-10 md-4'>
-        <!-- Type of facial products-->
-        <div class='row'>
-          <!-- card of Ala-Rasi-->
-          <div class='col-md-4  mb-4'>
-            <div class='card'>
-              <img src='./DBImages/product_images/$product_image' class='card-img-top' alt='$product_name'>
-              <div class='card-body'>
-                <h5 class='card-title'>$product_name</h5> 
-                <p class='card-text'>$product_description</p>
-                <p class='card-text'>R$product_price</p>
-                <a href='#'class='btn btn-success1'>ADD TO CART</a>
-                <a href='views/view_more.php?product_id=$product_id' class='btn btn-success'>VIEW MORE</a>
+
+        echo " <div class='col-md-8 col-lg-6 col-xl-4'>
+        <div class='card' style='border-radius: 15px;'>
+          <div class='bg-image hover-overlay ripple ripple-surface ripple-surface-light'
+            data-mdb-ripple-color='light'>
+            <img src='./DBImages/product_images/$product_image'
+              style='border-top-left-radius: 15px; border-top-right-radius: 15px;'class='img-fluid'
+              alt='$product_name' />
+            <a href'#!'>
+              <div class='mask'></div>
+            </a>
+          </div>
+          <div class='card-body pb-0'>
+            <div class='d-flex justify-content-between'>
+              <div>
+                <p><a href='#!' class='text-dark'> $product_name</a></p>
+              </div>
+              <div>
+                <div class='d-flex flex-row justify-content-end mt-1 mb-4 text-danger'>
+                  <i class='fas fa-star'></i>
+                  <i class='fas fa-star'></i>
+                  <i class='fas fa-star'></i>
+                  <i class='fas fa-star'></i>
+                </div>
+                <p class='small text-muted'>Rated 4.0/5</p>
               </div>
             </div>
           </div>
-          ";
-        //make sure that every double quote is replaced 
+          <hr class='my-0' />
+          <div class='card-body pb-0'>
+            <div class='d-flex justify-content-between'>
+              <p><a href='#!' class='text-dark'>$product_price</a></p>
+              <p class='text-dark'>$product_description</p>
+            </div>
+            <p class='small text-muted'></p>
+          </div>
+          <hr class='my-0' />
+          <div class='card-body'>
+            <div class='d-flex justify-content-between align-items-center pb-2 mb-1'>
+              <a href='index.php' class='text-dark fw-bold'>Cancel</a>
+              <button type='button' class='btn btn-primary'>ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+       
+          ";
+
+        //make sure that every double quote is replaced 
+        //https://mdbootstrap.com/docs/standard/extended/product-cards/
       }
       ?>
 
       
-
-
-  </section>
 
 
 
