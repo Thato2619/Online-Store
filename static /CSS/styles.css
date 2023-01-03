@@ -44,7 +44,8 @@ body{
 
 
 /* change background colour of add-to-cart buttom  */
-.btn-success1{
+.btn-success1, .btn-primary
+{
     background-color: #95a78d !important;
 }
 
@@ -53,4 +54,5 @@ body{
     background-color: #53917e !important;
     color: #fbfbf2 !important;
 }
+
 

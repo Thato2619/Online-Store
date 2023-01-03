@@ -80,7 +80,7 @@ require_once __DIR__ . "/config2/dbConfig.php";
           <div class="row">
             <div class="col-md-6 gx-5 mb-4">
               <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13248.029921231335!2d18.50444088384679!3d-33.8894611904067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5c059c545213%3A0xb08b8213f2a0a7be!2sCentury%20City%2C%20Cape%20Town%2C%207441!5e0!3m2!1sen!2sza!4v1672770814081!5m2!1sen!2sza" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13248.029921231335!2d18.50444088384679!3d-33.8894611904067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5c059c545213%3A0xb08b8213f2a0a7be!2sCentury%20City%2C%20Cape%20Town%2C%207441!5e0!3m2!1sen!2sza!4v1672770814081!5m2!1sen!2sza" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
@@ -89,8 +89,6 @@ require_once __DIR__ . "/config2/dbConfig.php";
 
             <div class="col-md-6 gx-5 mb-4">
               <h4 class="">LETS GET IN TOUCH</h4>
-              <br>
-
               <form>
                 <div>
                         <label>Full Name</label>
@@ -112,6 +110,11 @@ require_once __DIR__ . "/config2/dbConfig.php";
                         <div>
                             <label>Subject</label>
                             <input type="text" class="form-control">
+                        </div>
+
+                        <div>
+                            <label>Message</label>
+                            <textarea name="" class="form-control" rows="4"></textarea>
                         </div>
 
                         <br>
