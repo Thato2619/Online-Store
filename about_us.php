@@ -99,7 +99,7 @@
           <div class="row">
             <div class="col-md-6 gx-5 mb-4">
               <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
-                <img src="./DBImages/product_images/pexels-angela-roma-7479917.jpg" class="img-fluid" />
+                <img src="./DBImages/product_images/galley2.jpeg" class="img-fluid" />
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
@@ -107,18 +107,18 @@
             </div>
 
             <div class="col-md-6 gx-5 mb-4">
-              <h4><strong>Facilis consequatur eligendi</strong></h4>
+
+              <h4><strong>Welcome to Glistening Glow</strong></h4>
               <p class="text-muted">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequatur
-                eligendi quisquam doloremque vero ex debitis veritatis placeat unde animi laborum
-                sapiente illo possimus, commodi dignissimos obcaecati illum maiores corporis.
+               The very place where your skin feels at home. We are company that cares a lot about the health of your skin. Having healthy skin matters as it has a very important part of our lives. Every part of your skin matters. Every ingredient has been intentionally hand-picked by our very own teams,  who strive to make every part of your self-care seamless.
               </p>
-              <p><strong>Doloremque vero ex debitis veritatis?</strong></p>
+              <p><strong>Why Glistening Glow?</strong></p>
               <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod itaque voluptate
-                nesciunt laborum incidunt. Officia, quam consectetur. Earum eligendi aliquam illum
-                alias, unde optio accusantium soluta, iusto molestiae adipisci et?
+                Everything about our skincare brand is made naturally. Every product is infused with SPF 50. We really cater to the health of your skin. Our products are nourshing, moisturizing, non-comedogenic, cruelty-free, vegan and definitely enhances your beautiful skin.
               </p>
+              <span class="text-muted">
+                Good for all skin types & Dermatologist approved
+              </span>
             </div>
           </div>
         </section>
