@@ -133,7 +133,7 @@
           <div class='card-body'>
             <div class='d-flex justify-content-between align-items-center pb-2 mb-1'>
               <a href='index.php' class='text-dark fw-bold'>Cancel</a>
-              <button type='button' class='btn btn-primary'>ADD TO CART</button>
+              <button   href='index.php?add_to_cart = $product_id' type='button' class='btn btn-primary'>ADD TO CART</button>
             </div>
           </div>
         </div>
