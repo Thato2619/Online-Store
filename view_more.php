@@ -7,7 +7,6 @@
 
 
    require_once __DIR__ . "/config2/dbConfig.php";
-
 ?>
 
 <!DOCTYPE html>
@@ -71,6 +70,39 @@
     </div>
   </nav>
 
+  <!---- call cart function ---->
+  <?php 
+    
+
+
+    function cart(){
+        if(isset($_GET['add_to_cart'])){
+            global $connection;
+            $get_product_by_id=$_GET['add_to_cart'];
+            //select query from the database to result the output of connection of tables
+            $selected_query="SELECT * FROM `Cart` WHERE product_id=$get_product_by_id";
+            $result_query = mysqli_query($connection, $selected_query);
+            $num_of_rows=mysqli_num_rows($result_query);
+            if($num_of_rows >  0){
+                echo "<script>alert('This item is already added in cart')</script>";
+                echo "<script>window.open('index.php' , '_self')</script>";
+            }
+        }else{
+            $insert_query = "INSERT INTO `Cart`(`product_id`, `quantity`) VALUES ($get_product_by_id,0)";
+            $result_query = mysqli_query($connection, $insert_query);
+            echo "<script>alert(Item added to cart successfully')</script>";
+            echo "<script>window.open('index.php' , '_self')</script>";
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+  ?>
+
   
 
 
@@ -93,6 +125,35 @@
         $product_image = $row['product_image'];
         $product_price = $row['product_price'];
         $product_keywords = $row['product_keywords'];
+
+      
+
+        function cart(){
+            if(isset($_GET['add_to_cart'])){
+                global $connection;
+                $get_product_by_id=$_GET['add_to_cart'];
+                //select query from the database to result the output of connection of tables
+                $selected_query="SELECT * FROM `Cart` WHERE product_id=$get_product_by_id";
+                $result_query = mysqli_query($connection, $selected_query);
+                $num_of_rows=mysqli_num_rows($result_query);
+                if($num_of_rows >  0){
+                    echo "<script>alert('This item is already added in cart')</script>";
+                    echo "<script>window.open('index.php' , '_self')</script>";
+                }
+            }else{
+                $insert_query = "INSERT INTO `Cart`(`product_id`, `quantity`) VALUES ($get_product_by_id,0)";
+                $result_query = mysqli_query($connection, $insert_query);
+                echo "<script>alert(Item added to cart successfully')</script>";
+                echo "<script>window.open('index.php' , '_self')</script>";
+            }
+        }
+
+
+
+
+
+
+
 
         echo " <div class='col-md-8 col-lg-6 col-xl-4'>
         <div class='card' style='border-radius: 15px;'>
@@ -141,6 +202,7 @@
     </div>
   </div>
 
+  
        
           ";
 
