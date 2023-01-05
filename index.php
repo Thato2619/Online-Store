@@ -2,6 +2,8 @@
 session_start();
 require_once __DIR__ . "/config2/dbConfig.php";
 require_once __DIR__ . "/model/cart.php";
+include ("/model/cart.php");
+r
 ?>
 
 <!DOCTYPE html>
@@ -50,7 +52,7 @@ require_once __DIR__ . "/model/cart.php";
             <a class="nav-link" href="contact.php">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i><sup>1</sup></a>
+            <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i><sup><?php number_of_cart_items(); ?></sup></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Total Price:100 -+</a>

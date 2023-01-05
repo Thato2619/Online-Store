@@ -25,10 +25,10 @@ function getIPAddress() {
 function cart(){
     if(isset($_GET['add_to_cart'])){
         global $connection;
-        $ip_address = getIPAddress();  
+        //$ip_address = getIPAddress();  
         $get_product_by_id=$_GET['add_to_cart'];
         //select query from the database to result the output of connection of tables
-        $selected_query="SELECT * FROM `Cart` WHERE  product_id=$get_product_by_id and ip_address=$ip_address";
+        $selected_query="SELECT * FROM `Cart` WHERE  product_id=$get_product_by_id";
         $result_query = mysqli_query($connection, $selected_query); //the result show consistent connection from the database
         $num_of_rows=mysqli_num_rows($result_query); //show the number of rows that show the resukts from connection and selected_query
         if($num_of_rows >  0){ //create conditional statement that if the number of rows are great than zero that they should output that items already exist
@@ -37,7 +37,7 @@ function cart(){
         }
     }else{ 
         //else, insert the resulted output into the database
-        $insert_query = "INSERT INTO `Cart`(`product_id`, `quantity`, `ip_address`) VALUES ( $get_product_by_id,0, $ip_address)";
+        $insert_query = "INSERT INTO `Cart`(`product_id`, `quantity`) VALUES ( $get_product_by_id,0)";
         $result_query = mysqli_query($connection, $insert_query);
         echo "<script>alert(Item added to cart successfully')</script>";
         echo "<script>window.open('index.php' , '_self')</script>";
@@ -49,16 +49,18 @@ function cart(){
 function number_of_cart_items(){
     if(isset($_GET['add_to_cart'])){
         global $connection;
-        $ip_address = getIPAddress(); //remove product_id and use ip_address 
+        $get_product_by_id=$_GET['add_to_cart'];
+       // $ip_address = getIPAddress(); //remove product_id and use ip_address 
         //select query from the database to result the output of connection of tables
-        $selected_query="SELECT * FROM `Cart` WHERE   ip_address='$ip_address'";
+        $selected_query="SELECT * FROM `Cart` WHERE product_id=$get_product_by_id";
         $result_query = mysqli_query($connection, $selected_query); //the result show consistent connection from the database
         $totalItems=mysqli_num_rows($result_query); //show the number of rows that show the resukts from connection and selected_query
         }else{ 
         //else, insert the resulted output into the database
         global $connection;
-        $ip_address = getIPAddress();
-        $selected_query="SELECT * FROM `Cart` WHERE   ip_address='$ip_address'";
+        //$ip_address = getIPAddress();
+        $get_product_by_id=$_GET['add_to_cart'];
+        $selected_query="SELECT * FROM `Cart` WHERE   product_id=$get_product_by_id";
         $result_query = mysqli_query($connection, $selected_query);
         $totalItems=mysqli_num_rows($result_query);
     }
