@@ -52,7 +52,7 @@ r
             <a class="nav-link" href="contact.php">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i><sup><?php number_of_cart_items(); ?></sup></a>
+            <a class="nav-link" href="checkout.php"><i class="fa-solid fa-cart-shopping"></i><sup><?php number_of_cart_items(); ?></sup></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Total Price:<?php totalPrice(); ?></a>
