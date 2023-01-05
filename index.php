@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once __DIR__ . "/config2/dbConfig.php";
 require_once __DIR__ . "/model/cart.php";
 ?>
