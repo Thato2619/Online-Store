@@ -1,7 +1,12 @@
-<?php 
+<?php
+
+
+
+
+ 
 #create IP Addrress
 #https://www.javatpoint.com/how-to-get-the-ip-address-in-php 
-    function getIPAddress() {  
+function getIPAddress() {  
     //whether ip is from the share internet  
      if(!emptyempty($_SERVER['HTTP_CLIENT_IP'])) {  
                 $ip = $_SERVER['HTTP_CLIENT_IP'];  
@@ -19,6 +24,8 @@
 //$ip = getIPAddress();  
 //echo 'User Real IP Address - '.$ip;  
 
+
+
 function cart(){
     if(isset($_GET['add_to_cart'])){
         global $connection;
@@ -32,15 +39,13 @@ function cart(){
             echo "<script>alert('This item is already added in cart')</script>";
             echo "<script>window.open('index.php' , '_self')</script>";
         }
-    }else{
-        $ip_address = getIPAddress();  
+    }else{ 
         $insert_query = "INSERT INTO `Cart`(`product_id`, `quantity`, `ip_address`) VALUES ( $get_product_by_id,0, $ip_address)";
         $result_query = mysqli_query($connection, $insert_query);
         echo "<script>alert(Item added to cart successfully')</script>";
         echo "<script>window.open('index.php' , '_self')</script>";
     }
 }
-
 
 
 

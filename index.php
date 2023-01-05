@@ -1,7 +1,6 @@
 <?php
 require_once __DIR__ . "/config2/dbConfig.php";
-require_once __DIR__ . "/include/cart.php";
-
+require_once __DIR__ . "/model/cart.php";
 ?>
 
 <!DOCTYPE html>
@@ -67,7 +66,7 @@ require_once __DIR__ . "/include/cart.php";
   
   <!-- Add cart function -->
   <?php 
-    cart();
+  cart();
   ?>
 
   <!-- slideshow of models and products -->
@@ -148,10 +147,6 @@ require_once __DIR__ . "/include/cart.php";
           </div>
           ";
         //make sure that every double quote is replaced 
-
-        //echo our the IP address
-        $ip = getIPAddress();  
-        echo 'User Real IP Address - '.$ip;  
         
       }
       ?>
