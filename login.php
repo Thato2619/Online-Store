@@ -18,9 +18,13 @@
     
     
       <!--Section: Content-->
+   
+   
+
       <section>
           <div class="row">
             <div class="col-md-6 gx-5 mb-4">
+            <br>
               <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
               <form>
                   
@@ -29,8 +33,7 @@
                     </div> 
 
                     <br>
-                    <br>
-                    <br>
+                    
                     <!-- Email input -->
                     <div class="form-outline mb-4">
                         <input type="email" id="form2Example1" class="form-control" />
@@ -60,7 +63,7 @@
                     </div>
 
                     <!-- Submit button -->
-                    <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+                    <a href='index.php' class='btn btn-success1'>ADD TO CART</a>
 
                     <!-- Register buttons -->
                     <div class="text-center">
@@ -92,14 +95,14 @@
 
 
             <!----- Registartion  ------->
+              <br>
 
                     <div class="bg-light">
             <h1 class="display-1">REGISTRATION</h1>
         </div> 
 
         <br>
-        <br>
-        <br>
+       
   
 
         <form>
@@ -140,7 +143,7 @@
             </div>
 
             <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
+            <a href='index.php'class='btn btn-success1'>ADD TO CART</a>
 
             <!-- Register buttons -->
             <div class="text-center">
