@@ -134,8 +134,9 @@
           <hr class='my-0' />
           <div class='card-body'>
             <div class='d-flex justify-content-between align-items-center pb-2 mb-1'>
-              <a href='index.php' class='text-dark fw-bold'>Cancel</a>
-              <button   href='index.php?add_to_cart = $product_id' type='button' class='btn btn-primary'>ADD TO CART</button>
+              <a href='index.php' class='text-danger fw-bold text-danger'>Cancel</a>
+              <a href='cart.php' class='text-dark fw-bold'>ADD TO CART</a>
+              
             </div>
           </div>
         </div>
