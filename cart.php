@@ -1,5 +1,13 @@
 <?php 
 session_start();
+
+//connect to database
+$dbName = 'Online-Store';
+$serverName = 'localhost';
+$userName = 'root';
+$password = 'root';
+$connection = mysqli_connect($serverName, $userName, $password, $dbName);
+
 ?>
 
 <!DOCTYPE html>
