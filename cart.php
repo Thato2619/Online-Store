@@ -221,7 +221,7 @@ if(isset($_GET['action'])){
  * 
  * 
  * 
- *  * References from layout
+ *  * References from layout for login page
  * https://mdbootstrap.com/docs/standard/components/cards/
  * https://mdbootstrap.com/docs/standard/forms/overview/
  */
