@@ -1,17 +1,6 @@
 <?php 
 
 sesssion_start();
-if(isset($_GET['p_id'])){
-    if(isset($_GET['quantity'])){
-        $quantity = $_GET['quantity'];
-    }else{
-        $quantity = 1;
-    }
-    $p_id = $_GET['p_id'];
-
-    $_SESSION['cart'][$p_id] = array('qunatity' => $quantity);
-
-}
 
 ?>
 
@@ -76,44 +65,8 @@ r
     </div>
   </nav>
   
-  <!-- Add cart function -->
-  <?php 
-  cart();
-  ?>
 
-  <div class="container">
-    <div class="row">
-      <table class="table table-bordered text-centered">
-        <thead>
-          <tr>
-            <th>Product Title</th>
-            <th>Product Image</th>
-            <th>Quantity</th>
-            <th>Total Price</th>
-            <th>Remove</th>
-            <th>Operations</th>
-          </tr>
-        </thead>
-        <tbody>
-        <tr>
-          <td>Ala-Rasi</td>
-          <td><img src="./static/Images/Ala-Rasi.jpeg" alt="ala-rasi"></td>
-          <td><input type="text" name="" id=""></td>
-          <td>80</td>
-          <td><input type="checkbox"></td>
-          <td>
-            <p>Update</p>
-            <p>Remove</p>
-          </td>
-        </tr>
-        </tbody>
-      </table>
-      <!---- TOTAL ----->
-      <h4>TOTAL: <strong>R80</strong></h4>
-      <a href="checkout.php"><button>checkbox</button></a>
-    </div>
-  </div>
-
+  <div class></div>
 
   
 
