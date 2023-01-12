@@ -12,15 +12,16 @@
 
     <!-- Font Awesome Link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <title>SIGN UP & SIGN IN </title>
 </head>
 <body>
-    
-    
+            <!-- Add Title -->
+        <div class="bg-light">
+        <h1 class="display-1">WELCOME OR WELCOME BACK!</h1>
+        </div>
+        
+            
       <!--Section: Content-->
-   
-   
-
       <section>
           <div class="row">
             <div class="col-md-6 gx-5 mb-4">
@@ -63,28 +64,7 @@
                     </div>
 
                     <!-- Submit button -->
-                    <a href='index.php' class='btn btn-success1'>ADD TO CART</a>
-
-                    <!-- Register buttons -->
-                    <div class="text-center">
-                        <p>Not a member? <a href="#!">Register</a></p>
-                        <p>or sign up with:</p>
-                        <button type="button" class="btn btn-secondary btn-floating mx-1">
-                        <i class="fab fa-facebook-f"></i>
-                        </button>
-
-                        <button type="button" class="btn btn-secondary btn-floating mx-1">
-                        <i class="fab fa-google"></i>
-                        </button>
-
-                        <button type="button" class="btn btn-secondary btn-floating mx-1">
-                        <i class="fab fa-twitter"></i>
-                        </button>
-
-                        <button type="button" class="btn btn-secondary btn-floating mx-1">
-                        <i class="fab fa-github"></i>
-                        </button>
-                    </div>
+                    <a href='index.php' class='btn btn-success1'>SIGN IN</a>
                     </form>
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
@@ -134,36 +114,8 @@
                 <label class="form-label" for="form3Example4">Password</label>
             </div>
 
-            <!-- Checkbox -->
-            <div class="form-check d-flex justify-content-center mb-4">
-                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
-                <label class="form-check-label" for="form2Example33">
-                Subscribe to our newsletter
-                </label>
-            </div>
-
             <!-- Submit button -->
-            <a href='index.php'class='btn btn-success1'>ADD TO CART</a>
-
-            <!-- Register buttons -->
-            <div class="text-center">
-                <p>or sign up with:</p>
-                <button type="button" class="btn btn-secondary btn-floating mx-1">
-                <i class="fab fa-facebook-f"></i>
-                </button>
-
-                <button type="button" class="btn btn-secondary btn-floating mx-1">
-                <i class="fab fa-google"></i>
-                </button>
-
-                <button type="button" class="btn btn-secondary btn-floating mx-1">
-                <i class="fab fa-twitter"></i>
-                </button>
-
-                <button type="button" class="btn btn-secondary btn-floating mx-1">
-                <i class="fab fa-github"></i>
-                </button>
-            </div>
+            <a href='index.php'class='btn btn-success1'>REGISTER</a>
 </form>
             </div>
           </div>
