@@ -87,7 +87,7 @@ require_once __DIR__ . "/config2/dbConfig.php";
   <div class="col-lg-4 mb-4 mb-lg-0">
     <img
       src="./DBImages/product_images/pexels-angela-roma-7479816.jpeg"
-      class="w-100 shadow-1-strong rounded mb-4"
+      class="w-100 shadow-1-strong rounded mb-4 "
       class="hover_image"
       alt="Angela-Roma model products"
     />

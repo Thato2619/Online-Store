@@ -67,6 +67,16 @@ body{
     text-align: center;
 }
 
-/* add effects to the images of gallery */
+/* add hover effects to the images of card */
+.card{
+    overflow: hidden;
+}
 
+.card img{
+    overflow: hidden;
+    transition: all 1.3s ease;
+}
 
+.card:hover img{
+    transform: scale(1.2);
+}
