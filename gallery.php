@@ -72,12 +72,14 @@ require_once __DIR__ . "/config2/dbConfig.php";
     <img
       src="./DBImages/product_images/Hygge.jpeg"
       class="w-100 shadow-1-strong rounded mb-4"
+      class="hover_image"
       alt="Boat on Calm Water"
     />
 
     <img
       src="./DBImages/product_images/Ala-Rasi.jpeg"
       class="w-100 shadow-1-strong rounded mb-4"
+      class="hover_image"
       alt="Ala-Rasi product"
     />
   </div>
@@ -86,12 +88,14 @@ require_once __DIR__ . "/config2/dbConfig.php";
     <img
       src="./DBImages/product_images/pexels-angela-roma-7479816.jpeg"
       class="w-100 shadow-1-strong rounded mb-4"
+      class="hover_image"
       alt="Angela-Roma model products"
     />
 
     <img
       src="./DBImages/product_images/pexels-angela-roma-7479819.jpg"
       class="w-100 shadow-1-strong rounded mb-4"
+      class="hover_image"
       alt="gallery2 images"
     />
   </div>
@@ -100,12 +104,14 @@ require_once __DIR__ . "/config2/dbConfig.php";
     <img
       src="./DBImages/product_images/gallery.jpeg"
       class="w-100 shadow-1-strong rounded mb-4"
+      class="hover_image"
       alt="Waves at Sea"
     />
 
     <img
       src="./DBImages/product_images/gallery3.jpeg"
       class="w-100 shadow-1-strong rounded mb-4"
+      class="hover_image"
       alt="Gallery3 image"
     />
   </div>
