@@ -68,7 +68,7 @@ require_once __DIR__ . "/config2/dbConfig.php";
 <!--  add gallery images --->
 <!-- Gallery -->
 <div class="row">
-  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 hover">
     <img
       src="./DBImages/product_images/Hygge.jpeg"
       class="w-100 shadow-1-strong rounded mb-4"
@@ -84,7 +84,7 @@ require_once __DIR__ . "/config2/dbConfig.php";
     />
   </div>
 
-  <div class="col-lg-4 mb-4 mb-lg-0">
+  <div class="col-lg-4 mb-4 mb-lg-0 hover">
     <img
       src="./DBImages/product_images/pexels-angela-roma-7479816.jpeg"
       class="w-100 shadow-1-strong rounded mb-4 "
@@ -100,7 +100,7 @@ require_once __DIR__ . "/config2/dbConfig.php";
     />
   </div>
 
-  <div class="col-lg-4 mb-4 mb-lg-0">
+  <div class="col-lg-4 mb-4 mb-lg-0 hover">
     <img
       src="./DBImages/product_images/gallery.jpeg"
       class="w-100 shadow-1-strong rounded mb-4"
