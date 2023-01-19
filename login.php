@@ -52,7 +52,7 @@
 
                  
                   
-                  <p class="mb-5 pb-lg-2" style="color: black;">Don't have an account? <a href="#!"
+                  <p class="mb-5 pb-lg-2" style="color: black;">Don't have an account? <a href="registration.php"
                       style="color: #8A3033;">Register here</a></p>
                 </form>
 
