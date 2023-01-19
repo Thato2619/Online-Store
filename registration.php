@@ -15,8 +15,9 @@
     <title>Registration</title>
 </head>
 <body>
+    <!-----  Add registartion form------>
 <section class="vh-100 bg-image"
-  style="background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp');">
+  style="background-image: url('registration_wallpaper.php') !important;">
   <div class="mask d-flex align-items-center h-100 gradient-custom-3">
     <div class="container h-100">
       <div class="row d-flex justify-content-center align-items-center h-100">
