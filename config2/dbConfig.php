@@ -8,14 +8,18 @@ $dbName = 'Online-Store';
 
 
 //create connection in database
-$connection = mysqli_connect($serverName, $userName, $password, $dbName);
+if (!$connection = mysqli_connect($serverName, $userName, $password, $dbName)){
+   
+    //check if connection is successful
+    die("failed to connect");
+};
 
-//check if connection is successful
-if(mysqli_connect_errno()){
+
+/*if(mysqli_connect_errno()){
     echo "Failed to connect!";
     exit();
 }
-#echo "Connection succcessful!";
+#echo "Connection succcessful!";*/
 
 
 

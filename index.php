@@ -3,7 +3,9 @@ session_start();
 require_once __DIR__ . "/config2/dbConfig.php";
 require_once __DIR__ . "/model/cart.php";
 include ("/model/cart.php");
-r
+
+$user_data = check_login($connection);
+$_SESSION;
 ?>
 
 <!DOCTYPE html>
