@@ -59,7 +59,7 @@ r
           </li>
         </ul>
 
-        <form class="d-flex" role="search" action="search_product.php" method="get">
+        <form class="d-flex" action="search_product.php" method="get">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search_data">
           <!--<button class="btn btn-outline-success" type="submit">Search</button>-->
           <input type="submit" value="search" class="btn btn-outline-success" name="search_data_product">
@@ -68,9 +68,9 @@ r
     </div>
   </nav>
   
-  <!-- Add cart function -->
-  <?php 
-  cart();
+ <!-- Add  function -->
+ <?php 
+  searchProduct();
   ?>
 
   <!-- slideshow of models and products -->
