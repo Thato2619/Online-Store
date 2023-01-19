@@ -112,5 +112,7 @@ body{
 .row :hover img{
     transform: scale(1.2);
 }
-
+u{
+    color: #bd1e1e !important;
+}
 

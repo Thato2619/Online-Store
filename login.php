@@ -47,13 +47,13 @@
                   </div>
 
                   <div class="pt-1 mb-4">
-                  <a href='view_more.php?product_id=$product_id' class='btn btn-success'>LOGIN</a>
+                  <a href='index.php' class='btn btn-success'>LOGIN</a>
                   </div>
 
                  
                   
                   <p class="mb-5 pb-lg-2" style="color: black;">Don't have an account? <a href="registration.php"
-                      style="color: #8A3033;">Register here</a></p>
+                      style="color:#bd1e1e;">Register here</a></p>
                 </form>
 
               </div>
