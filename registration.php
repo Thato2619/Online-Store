@@ -1,3 +1,36 @@
+<?php 
+session_start();
+
+require_once __DIR__ . "/config2/dbConfig.php";
+require_once __DIR__ . "/model/cart.php";
+include ("/model/cart.php");
+include ("/model/check_login.php");
+
+
+if($_SERVER['REQUEST_METHOD'] == "POST") {
+    
+    //Something was posted
+    $Name = $_POST['Name'];
+    $Email = $_POST['Email'];
+    $user_password = $_POST['user_password'];
+
+    if(!empty( $Email) && !empty($user_password) && !is_numeric($Email)){
+        
+        //save to database
+        $user_ID = random_num(20);
+        $query = "INSERT INTO `Users`(`user_ID`, `Name`, `Email`, `user_password`) VALUES ('$user_ID','$Name','$Email','$user_password')";
+        mysqli_query($connection, $query);
+
+       //header("Location: login.php");
+        //die;
+
+    }else{
+        echo "Please enter some valid information!";
+    }
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

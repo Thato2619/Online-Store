@@ -148,7 +148,7 @@ if(isset($_GET['action'])){
                 <input type='text' name="quantity" class="form-control" value="1">
                 <input type='hidden' name="hidden_name" value="<?php echo $row['product_name']?>">
                 <input type='hidden' name="hidden_price" value="<?php echo $row['product_price']?>">
-                <input type='submit' name="add"  style="margin-top: 5px"  class="btn btn-success"value="Add To Cart">
+                <input type='submit' name="add"  style="margin-top: 5px"  class="btn btn-danger"value="OUT OF STOCK">
                 
             </div>
         </form>

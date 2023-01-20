@@ -1,3 +1,48 @@
+
+<?php 
+session_start();
+
+require_once __DIR__ . "/config2/dbConfig.php";
+require_once __DIR__ . "/model/cart.php";
+include ("/model/cart.php");
+include ("/model/check_login.php");
+include("/config2/dbConfig.php");
+
+if($_SERVER['REQUEST_METHOD'] == "POST") {
+    
+    //Something was posted
+    $Name = $_POST['Name'];
+    $Email = $_POST['Email'];
+    $user_password = $_POST['user_password'];
+
+    if(!empty($Email) && !empty($user_password) && !is_numeric($Email)){
+        
+        //read from database
+        $query = "SELECT * FROM `Users` WHERE Email = '$Email' limit 1";
+        $result = mysqli_query($connection, $query);
+
+        if($result){
+            if($result && mysqli_num_rows($result) > 0){
+
+                $user_data = mysqli_fetch_assoc($result);
+                if($user_data['password'] === $user_password){
+
+                    $_SESSION['user_ID'] = $user_data['user_ID'];
+                    header("Location: index.php");
+                    die;
+                }
+            }
+        }
+        echo "Wrong email address or password!";
+      
+
+    }else{
+        echo "Wrong email address or password!";
+    }
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
