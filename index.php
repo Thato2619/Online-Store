@@ -144,7 +144,9 @@ include ("/model/cart.php");
           <!-- card of Ala-Rasi-->
           <div class='col-md-4  mb-4'>
             <div class='card'>
+            <a class='nav-link' href='cart.php'>
               <img src='./DBImages/product_images/$product_image' class='card-img-top' alt='$product_name'>
+            </a>
               <div class='card-body'>
                 <h5 class='card-title'>$product_name</h5> 
                 <p class='card-text'>$product_description</p>

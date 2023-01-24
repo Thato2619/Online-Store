@@ -100,9 +100,12 @@
         <div class='card' style='border-radius: 15px;'>
           <div class='bg-image hover-overlay ripple ripple-surface ripple-surface-light'
             data-mdb-ripple-color='light'>
-            <img src='./DBImages/product_images/$product_image'
+            <a class='nav-link' href='cart.php'>
+              <img src='./DBImages/product_images/$product_image'
               style='border-top-left-radius: 15px; border-top-right-radius: 15px;'class='img-fluid'
               alt='$product_name' />
+            </a>
+           
             <a href'#!'>
               <div class='mask'></div>
             </a>
