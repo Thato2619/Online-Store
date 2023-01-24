@@ -49,6 +49,9 @@ require_once __DIR__ . "/config2/dbConfig.php";
             <a class="nav-link" href="contact_us.php">Contact</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="comingSoon.php">COMING SOON</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i><sup>1</sup></a>
           </li>
           <li class="nav-item">

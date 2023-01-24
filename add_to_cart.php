@@ -59,6 +59,9 @@ r
             <a class="nav-link" href="contact.php">Contact</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="comingSoon.php">COMING SOON</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="add_to_cart.php"><i class="fa-solid fa-cart-shopping"></i><sup><?php number_of_cart_items(); ?></sup></a>
           </li>
       </div>
